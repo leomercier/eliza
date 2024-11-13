@@ -60,6 +60,7 @@ export class TelegramClient {
             elizaLogger.log(
                 "✨ Telegram bot successfully launched and is running!"
             );
+
             elizaLogger.log(`Bot username: @${this.bot.botInfo?.username}`);
 
             // Graceful shutdown handlers

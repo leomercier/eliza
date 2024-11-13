@@ -9,6 +9,7 @@ export const TelegramClientInterface: Client = {
         elizaLogger.success(
             `✅ Telegram client successfully started for character ${runtime.character.name}`
         );
+        tg.start();
         return tg;
     },
     stop: async (runtime: IAgentRuntime) => {

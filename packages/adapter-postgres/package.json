@@ -6,6 +6,7 @@
     "types": "dist/index.d.ts",
     "dependencies": {
         "@ai16z/eliza": "workspace:*",
+        "debug": "^4.3.7",
         "pg": "^8.13.1"
     },
     "devDependencies": {
